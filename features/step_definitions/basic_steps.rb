@@ -22,3 +22,7 @@ end
 Given("I fill in {string} with {string}") do |field, value|
     fill_in field, with: value
 end
+
+Given("show me the page") do
+    save_and_open_page
+end
